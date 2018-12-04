@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- 
+
+	index.html 
+	Andy Knoll
+	November 2018
+	
+-->
+
+<head>
+
+	<title>Blackjack Test</title>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<!-- app-specific CSS -->
+	<link href="css/app.css" rel="stylesheet">
+	<link href="js/card-maker/card-maker.css" rel="stylesheet">
+
+	<!-- custom web fonts -->
+	<link  href="fonts/Lato.css" rel="stylesheet">
+
+	<!-- vendor libraries -->
+	<script src="js/lib/jquery-3.3.1.min.js"></script>
+
+	<!-- app-specific JS code -->
+	<script src="js/card-maker/card-maker.js"></script>
+	
+</head>
+
+<body>
+
+	<div id="app">
+		<h1>Blackjack Test</h1>
+		<!-- <input type="range" name="points" min="0" max="10">  -->
+		<div id="table">
+				<div id="hand0" class="hand"></div>
+				<div id="hand1" class="hand"></div>
+				<div id="hand2" class="hand"></div>
+				<div id="hand3" class="hand"></div>
+		</div>
+		<div class="buttons">
+			<button id="button1" class="button-a">create and deal 1</button>
+			<button id="button2" class="button-a">create and deal 4</button>
+			<button id="button3" class="button-a">create and deal 8</button>
+			<button id="button4" class="button-a">flip dealer's up</button>
+		</div>
+		<div class="buttons">
+			<button id="button5" class="button-a">HIT</button>
+			<button id="button6" class="button-a">STAY</button>
+			<button id="button7" class="button-a">play single round</button>
+			<button id="button8" class="button-a">fake complete event</button>
+		</div>
+		<div id="display"></div>
+	</div>
+
+	<script src="js/app/app.js"></script>
+
+</body>
+
+</html>
+

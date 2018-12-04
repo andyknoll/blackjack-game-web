@@ -1,0 +1,27 @@
+/* card-maker.css */
+
+
+
+/* default settings */
+.cm-card {
+  position: absolute;
+  /*display: inline-block;*/
+  width: 691px;
+  height: 1056px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+  border: 0px solid white;
+}
+
+/* user settings */
+.cm-card {
+  /*
+  width: 150px;
+  height: 230px;
+  */
+  margin: 5px;
+  border-radius: 0px;
+  border: 0px solid white;
+}
+

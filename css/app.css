@@ -1,0 +1,76 @@
+/* cards-ui.css */
+
+
+html {
+  background-color: #055342;
+  color: white;
+  font-family: Arial;
+  font-size : 18px;
+}
+  
+h1 {
+  text-align: center;
+}
+
+#app {
+  margin: auto;
+  width : 1300px;
+  border: 0px solid white;
+  border-radius: 20px;
+  background-image: url(../img/table-1.jpg);
+  overflow: hidden;
+}
+
+
+#table {
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+  width : 100%;
+  height: 520px;
+  padding: 0px;
+  border: 0px solid white;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, .0);
+}
+
+.hand {
+  position: absolute;
+  height: 230px;
+  width: 300px;
+  border-radius: 10px;
+  border: 0px solid white;
+  background-color: rgba(0, 0, 0, .0);
+}
+
+
+.buttons {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, .0);
+}
+
+.button-a {
+  flex:  1;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #003300;
+  background-color: rgba(1, 1, 1, .2);
+  border-radius: 0px;
+  border: 0px solid white;
+}
+
+#button1, #button5 {
+  margin-left: 0px;
+}
+
+#display {
+  height: 30px;
+  width : 1290px;
+  padding: 5px;
+  font-family: Courier;
+  font-size: 1.25rem;
+  background-color: rgba(1, 1, 1, .0);
+}
